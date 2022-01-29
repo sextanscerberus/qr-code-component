@@ -1,0 +1,57 @@
+/* Desktop media query */
+html {
+	font-family: 'Outfit', sans-serif;
+}
+
+p {
+	font-size: 15px;
+	color: hsl(220, 15%, 55%);
+}
+
+h2 {
+	font-size: 1.3em;
+	color: hsl(218, 44%, 22%);
+}
+
+body {
+	background-color: hsl(212, 45%, 89%);
+	text-align: center;
+}
+
+#qr-code {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+#component {
+	margin: 8em auto 0;
+	background-color: hsl(0, 0%, 100%);
+	padding: 0.8em;
+	border-radius: 10px;
+	width: 16em;
+	box-shadow: 0 2px 7px 1px hsla(218, 44%, 22%, .4);;
+}
+
+#attribution {
+	margin: auto;
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	right: 0;
+}
+
+#attribution p {
+	color: hsl(218, 44%, 22%);
+}
+
+/*Mobile media query (576 and less)*/
+@media (max-width: 575.98px) {
+	#component {
+		margin-top: 6em;
+	}
+
+	#attribution p {
+		font-size: 0.7em;
+	}
+}
